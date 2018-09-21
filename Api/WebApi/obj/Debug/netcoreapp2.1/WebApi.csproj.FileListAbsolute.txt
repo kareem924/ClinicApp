@@ -12,3 +12,8 @@
 /media/kareem/New Volume/Github Source/ClinicApp/Api/WebApi/obj/Debug/netcoreapp2.1/WebApi.RazorTargetAssemblyInfo.cache
 /media/kareem/New Volume/Github Source/ClinicApp/Api/WebApi/obj/Debug/netcoreapp2.1/WebApi.dll
 /media/kareem/New Volume/Github Source/ClinicApp/Api/WebApi/obj/Debug/netcoreapp2.1/WebApi.pdb
+/media/kareem/New Volume/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Abstract.dll
+/media/kareem/New Volume/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Framework.dll
+/media/kareem/New Volume/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Abstract.pdb
+/media/kareem/New Volume/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Framework.pdb
+/media/kareem/New Volume/Github Source/ClinicApp/Api/WebApi/obj/Debug/netcoreapp2.1/WebApi.csproj.CopyComplete

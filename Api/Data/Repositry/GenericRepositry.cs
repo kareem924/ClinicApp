@@ -5,11 +5,11 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Abstract.Infrastructure;
 using Framework.UnitOfWork;
-using System.Data;
-using System.Data.SqlClient;
+
+using Dapper;
 namespace Data.Repositry
 {
-    public class GenericRepositry<TObject> : IRepository<TObject> where TObject : class
+   /* public class GenericRepositry<TObject> : IRepository<TObject> where TObject : class
     {
 
         private readonly IConnectionFactory _connectionFactory;
@@ -30,8 +30,10 @@ namespace Data.Repositry
         {
             try
             {
-                using (var connection = _connectionFactory.CreateConnection() as SqlConnection)
+                using (var connection = new SqlConnection(
+               @"Server=localhost;Database=ClinicApp;User Id=sa;Password=P@ssw0rd;"))
                 {
+                    
                     await connection.OpenAsync();
                     return await getData(connection);
                 }
@@ -134,5 +136,5 @@ namespace Data.Repositry
         {
             throw new NotImplementedException();
         }
-    }
+    }*/
 }

@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Abstract.Entities;
 using Microsoft.AspNetCore.Mvc;
-
+using Dapper;
+using System.Data.SqlClient;
 namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
@@ -12,9 +14,17 @@ namespace WebApi.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<User>> Get()
         {
-            return new string[] { "value1", "value2" };
+            string sql = "SELECT TOP 10 * FROM Users";
+
+            using (var connection = new SqlConnection(
+               @"Server=localhost;Database=ClinicApp;User Id=sa;Password=P@ssw0rd;"))
+            {
+               var users = connection.Query<User>(sql).ToList();
+
+               return users;
+            }
         }
 
         // GET api/values/5

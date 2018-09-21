@@ -256,6 +256,9 @@
         }
       },
       "Abstract/1.0.0": {
+        "dependencies": {
+          "Framework": "1.0.0"
+        },
         "runtime": {
           "Abstract.dll": {}
         }
