@@ -1,0 +1,12 @@
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/bin/Debug/netcoreapp2.1/Abstract.deps.json
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/bin/Debug/netcoreapp2.1/Abstract.dll
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/bin/Debug/netcoreapp2.1/Abstract.pdb
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/bin/Debug/netcoreapp2.1/Framework.dll
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/bin/Debug/netcoreapp2.1/Framework.pdb
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/obj/Debug/netcoreapp2.1/Abstract.csprojAssemblyReference.cache
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/obj/Debug/netcoreapp2.1/Abstract.csproj.CoreCompileInputs.cache
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/obj/Debug/netcoreapp2.1/Abstract.AssemblyInfoInputs.cache
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/obj/Debug/netcoreapp2.1/Abstract.AssemblyInfo.cs
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/obj/Debug/netcoreapp2.1/Abstract.csproj.CopyComplete
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/obj/Debug/netcoreapp2.1/Abstract.dll
+/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/obj/Debug/netcoreapp2.1/Abstract.pdb

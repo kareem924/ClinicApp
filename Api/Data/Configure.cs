@@ -1,4 +1,8 @@
 ﻿
+using Abstract.Infrastructure;
+using Abstract.Repositry;
+using Data.Connection;
+using Data.Repositry;
 using Microsoft.Extensions.DependencyInjection;
 namespace Data
 {
@@ -8,7 +12,9 @@ namespace Data
         {
             //Context lifetime defaults to "scoped"
             //services.AddDbContext<UserManagementDbContext>(options => options.UseSqlServer(connectionString));
-
+             services.AddScoped<IConnectionFactory>(sp=>
+             {return new SqlConnectionFactory(connectionString); });
+             services.AddTransient<IUserRepositry,UserRepository>();
 
            
         }

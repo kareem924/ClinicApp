@@ -3,28 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Abstract.Entities;
+using Abstract.Repositry;
 using Microsoft.AspNetCore.Mvc;
-using Dapper;
-using System.Data.SqlClient;
+
 namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        IUserRepositry _userRepositry;
+        public ValuesController(IUserRepositry userRepositry)
+        {
+            _userRepositry=userRepositry;
+        }
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<User>> Get()
+        public ActionResult<IEnumerable<string>> Get()
         {
-            string sql = "SELECT TOP 10 * FROM Users";
-
-            using (var connection = new SqlConnection(
-               @"Server=localhost;Database=ClinicApp;User Id=sa;Password=P@ssw0rd;"))
-            {
-               var users = connection.Query<User>(sql).ToList();
-
-               return users;
-            }
+          var User=  _userRepositry.Add(new User());
+            return new string[] { User.Name, User.Email };
         }
 
         // GET api/values/5

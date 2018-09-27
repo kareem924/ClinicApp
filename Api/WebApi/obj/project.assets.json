@@ -4346,7 +4346,7 @@
       },
       "Abstract/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Framework": "1.0.0"
         },
@@ -4357,9 +4357,25 @@
           "bin/placeholder/Abstract.dll": {}
         }
       },
+      "Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Abstract": "1.0.0",
+          "Dapper": "1.50.5",
+          "Framework": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data.dll": {}
+        }
+      },
       "Framework/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v2.1",
         "compile": {
           "bin/placeholder/Framework.dll": {}
         },
@@ -11555,6 +11571,11 @@
       "path": "../Abstract/Abstract.csproj",
       "msbuildProject": "../Abstract/Abstract.csproj"
     },
+    "Data/1.0.0": {
+      "type": "project",
+      "path": "../Data/Data.csproj",
+      "msbuildProject": "../Data/Data.csproj"
+    },
     "Framework/1.0.0": {
       "type": "project",
       "path": "../Framework/Framework.csproj",
@@ -11564,7 +11585,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Abstract >= 1.0.0",
-      "Dapper >= 1.50.5",
+      "Data >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "System.Data.SqlClient >= 4.5.1"
@@ -11600,6 +11621,9 @@
           "projectReferences": {
             "/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/Abstract.csproj": {
               "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/Abstract.csproj"
+            },
+            "/media/kareem/New Volume/Github Source/ClinicApp/Api/Data/Data.csproj": {
+              "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Data/Data.csproj"
             }
           }
         }
@@ -11613,10 +11637,6 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
-          "Dapper": {
-            "target": "Package",
-            "version": "[1.50.5, )"
-          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",

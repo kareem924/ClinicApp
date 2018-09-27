@@ -1,9 +1,9 @@
-
+using System.Data;
 
 namespace Abstract.Infrastructure
 {
      public interface IConnectionFactory
     {
-        object CreateConnection();
+        IDbConnection GetConnection{get;}
     }
 }

@@ -15,9 +15,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Abstract\Abstract.csproj" />
   </ItemGroup>
-    <ItemGroup>
-    <PackageReference Include="Dapper" Version="1.50.5" />
-   
+ <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />

@@ -25,7 +25,7 @@
       "WebApi/1.0.0": {
         "dependencies": {
           "Abstract": "1.0.0",
-          "Dapper": "1.50.5",
+          "Data": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "System.Data.SqlClient": "4.5.1"
@@ -234,6 +234,20 @@
         },
         "compile": {
           "Abstract.dll": {}
+        }
+      },
+      "Data/1.0.0": {
+        "dependencies": {
+          "Abstract": "1.0.0",
+          "Dapper": "1.50.5",
+          "Framework": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "2.1.1"
+        },
+        "runtime": {
+          "Data.dll": {}
+        },
+        "compile": {
+          "Data.dll": {}
         }
       },
       "Framework/1.0.0": {
@@ -3252,6 +3266,11 @@
       "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
     },
     "Abstract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
