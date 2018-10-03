@@ -21,7 +21,7 @@ namespace WebApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-          var User=  _userRepositry.Add(new User());
+          var User=  _userRepositry.Add(new Users());
             return new string[] { User.Name, User.Email };
         }
 
@@ -34,8 +34,10 @@ namespace WebApi.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public Users Post([FromBody] Users value)
         {
+            var User=  _userRepositry.Add(value);
+            return User;
         }
 
         // PUT api/values/5
