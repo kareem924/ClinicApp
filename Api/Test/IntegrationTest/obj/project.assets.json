@@ -176,28 +176,30 @@
     ]
   },
   "packageFolders": {
-    "/home/kareem/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/IntegrationTest/IntegrationTest.csproj",
+      "projectUniqueName": "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\Test\\IntegrationTest\\IntegrationTest.csproj",
       "projectName": "IntegrationTest",
-      "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/IntegrationTest/IntegrationTest.csproj",
-      "packagesPath": "/home/kareem/.nuget/packages/",
-      "outputPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/IntegrationTest/obj/",
+      "projectPath": "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\Test\\IntegrationTest\\IntegrationTest.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\Test\\IntegrationTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/kareem/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
