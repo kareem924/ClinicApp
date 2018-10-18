@@ -1,0 +1,9 @@
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netstandard2.0\IntegrationTest.deps.json
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netstandard2.0\IntegrationTest.dll
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netstandard2.0\IntegrationTest.pdb
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netstandard2.0\IntegrationTest.csprojAssemblyReference.cache
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netstandard2.0\IntegrationTest.csproj.CoreCompileInputs.cache
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netstandard2.0\IntegrationTest.AssemblyInfoInputs.cache
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netstandard2.0\IntegrationTest.AssemblyInfo.cs
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netstandard2.0\IntegrationTest.dll
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netstandard2.0\IntegrationTest.pdb
