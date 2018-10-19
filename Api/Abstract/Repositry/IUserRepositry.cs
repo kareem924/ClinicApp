@@ -5,6 +5,8 @@ namespace Abstract.Repositry
 {
     public interface IUserRepositry:IBasicRepositrory<Users>
     {
-         
+        Users Get(string userName, string hashedPassword);
+        Users Get(string email);
+
     }
 }
