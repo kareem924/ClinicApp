@@ -25,7 +25,7 @@ namespace Abstract.Entities
         public string EmailNormalized { get; set; }
         public string UsernameNormalized { get; set; }
         public int UserTypeId { get; set; }
-
+        public string EncryptedPassword { get; set; }
         public ICollection<UserClaims> UserClaims { get; set; }
         public ICollection<UserTokens> UserTokens { get; set; }
     }

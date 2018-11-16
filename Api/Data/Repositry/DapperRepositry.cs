@@ -11,7 +11,7 @@ namespace Data.Repositry
 {
     public class DapperRepositry<T> : IBasicRepositrory<T> where T : class
     {
-        IConnectionFactory _connectionFactory;
+       public IConnectionFactory _connectionFactory;
         public DapperRepositry(IConnectionFactory connectionFactory)
         {
             _connectionFactory = connectionFactory;
