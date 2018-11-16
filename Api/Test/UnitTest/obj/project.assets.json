@@ -7024,11 +7024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/UnitTest/UnitTest.csproj",
+      "projectUniqueName": "/home/kareem/Github Source/ClinicApp/Api/Test/UnitTest/UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/UnitTest/UnitTest.csproj",
+      "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Test/UnitTest/UnitTest.csproj",
       "packagesPath": "/home/kareem/.nuget/packages/",
-      "outputPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/UnitTest/obj/",
+      "outputPath": "/home/kareem/Github Source/ClinicApp/Api/Test/UnitTest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -7045,17 +7045,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/media/kareem/New Volume/Github Source/ClinicApp/Api/Application/Application.csproj": {
-              "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Application/Application.csproj"
+            "/home/kareem/Github Source/ClinicApp/Api/Application/Application.csproj": {
+              "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Application/Application.csproj"
             },
-            "/media/kareem/New Volume/Github Source/ClinicApp/Api/Data/Data.csproj": {
-              "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Data/Data.csproj"
+            "/home/kareem/Github Source/ClinicApp/Api/Data/Data.csproj": {
+              "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Data/Data.csproj"
             },
-            "/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/Framework.csproj": {
-              "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/Framework.csproj"
+            "/home/kareem/Github Source/ClinicApp/Api/Framework/Framework.csproj": {
+              "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Framework/Framework.csproj"
             },
-            "/media/kareem/New Volume/Github Source/ClinicApp/Api/WebApi/WebApi.csproj": {
-              "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/WebApi/WebApi.csproj"
+            "/home/kareem/Github Source/ClinicApp/Api/WebApi/WebApi.csproj": {
+              "projectPath": "/home/kareem/Github Source/ClinicApp/Api/WebApi/WebApi.csproj"
             }
           }
         }

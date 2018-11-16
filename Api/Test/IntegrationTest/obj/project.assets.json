@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/IntegrationTest/IntegrationTest.csproj",
+      "projectUniqueName": "/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/IntegrationTest.csproj",
       "projectName": "IntegrationTest",
-      "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/IntegrationTest/IntegrationTest.csproj",
+      "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/IntegrationTest.csproj",
       "packagesPath": "/home/kareem/.nuget/packages/",
-      "outputPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/IntegrationTest/obj/",
+      "outputPath": "/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

@@ -2588,11 +2588,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/Abstract.csproj",
+      "projectUniqueName": "/home/kareem/Github Source/ClinicApp/Api/Abstract/Abstract.csproj",
       "projectName": "Abstract",
-      "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/Abstract.csproj",
+      "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Abstract/Abstract.csproj",
       "packagesPath": "/home/kareem/.nuget/packages/",
-      "outputPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Abstract/obj/",
+      "outputPath": "/home/kareem/Github Source/ClinicApp/Api/Abstract/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -2609,8 +2609,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/Framework.csproj": {
-              "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/Framework.csproj"
+            "/home/kareem/Github Source/ClinicApp/Api/Framework/Framework.csproj": {
+              "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Framework/Framework.csproj"
             }
           }
         }

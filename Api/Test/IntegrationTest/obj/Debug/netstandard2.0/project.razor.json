@@ -1,6 +1,14 @@
 {
-  "ProjectFilePath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/IntegrationTest/IntegrationTest.csproj",
+  "ProjectFilePath": "/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/IntegrationTest.csproj",
   "TargetFramework": "netstandard2.0",
   "TagHelpers": [],
-  "Configuration": null
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
 }

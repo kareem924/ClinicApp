@@ -2570,11 +2570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/Framework.csproj",
+      "projectUniqueName": "/home/kareem/Github Source/ClinicApp/Api/Framework/Framework.csproj",
       "projectName": "Framework",
-      "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/Framework.csproj",
+      "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Framework/Framework.csproj",
       "packagesPath": "/home/kareem/.nuget/packages/",
-      "outputPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/obj/",
+      "outputPath": "/home/kareem/Github Source/ClinicApp/Api/Framework/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

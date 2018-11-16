@@ -6386,11 +6386,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/Common/Common.csproj",
+      "projectUniqueName": "/home/kareem/Github Source/ClinicApp/Api/Test/Common/Common.csproj",
       "projectName": "Common",
-      "projectPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/Common/Common.csproj",
+      "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Test/Common/Common.csproj",
       "packagesPath": "/home/kareem/.nuget/packages/",
-      "outputPath": "/media/kareem/New Volume/Github Source/ClinicApp/Api/Test/Common/obj/",
+      "outputPath": "/home/kareem/Github Source/ClinicApp/Api/Test/Common/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
