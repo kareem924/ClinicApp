@@ -26,6 +26,7 @@ namespace WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             Data.Configure.ConfigureServices(services,Configuration.GetConnectionString("defaultConnection"));
+            Application.Configure.ConfigureServices(services);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

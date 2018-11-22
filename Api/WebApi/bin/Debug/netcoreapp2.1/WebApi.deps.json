@@ -25,6 +25,7 @@
       "WebApi/1.0.0": {
         "dependencies": {
           "Abstract": "1.0.0",
+          "Application": "1.0.0",
           "Data": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
@@ -250,6 +251,20 @@
         },
         "compile": {
           "Abstract.dll": {}
+        }
+      },
+      "Application/1.0.0": {
+        "dependencies": {
+          "Abstract": "1.0.0",
+          "Data": "1.0.0",
+          "Framework": "1.0.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "Application.dll": {}
+        },
+        "compile": {
+          "Application.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -3296,6 +3311,11 @@
       "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
     },
     "Abstract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

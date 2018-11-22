@@ -46,10 +46,12 @@ D:/Projects for studying/clinicApp/ClinicApp/Api/WebApi/obj/Debug/netcoreapp2.1/
 /home/kareem/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/WebApi.dll
 /home/kareem/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/WebApi.pdb
 /home/kareem/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Abstract.dll
+/home/kareem/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Application.dll
 /home/kareem/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Data.dll
 /home/kareem/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Framework.dll
 /home/kareem/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Abstract.pdb
 /home/kareem/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Data.pdb
+/home/kareem/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Application.pdb
 /home/kareem/Github Source/ClinicApp/Api/WebApi/bin/Debug/netcoreapp2.1/Framework.pdb
 /home/kareem/Github Source/ClinicApp/Api/WebApi/obj/Debug/netcoreapp2.1/WebApi.csprojAssemblyReference.cache
 /home/kareem/Github Source/ClinicApp/Api/WebApi/obj/Debug/netcoreapp2.1/WebApi.csproj.CoreCompileInputs.cache

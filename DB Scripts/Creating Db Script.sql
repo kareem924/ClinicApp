@@ -116,4 +116,5 @@ ADD CONSTRAINT FK_SysPagesActions_SysPages FOREIGN KEY (PageId)
     ON DELETE NO ACTION    
     ON UPDATE NO ACTION
 
-    ALTER TABLE [dbo].[users] ADD [EncryptedPassword] varchar(255) NULL
+ALTER TABLE dbo.Users 
+ADD PasswordHash NVARCHAR(300) NULL;

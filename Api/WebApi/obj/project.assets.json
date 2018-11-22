@@ -4371,6 +4371,22 @@
           "bin/placeholder/Abstract.dll": {}
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Abstract": "1.0.0",
+          "Data": "1.0.0",
+          "Framework": "1.0.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -11607,6 +11623,11 @@
       "path": "../Abstract/Abstract.csproj",
       "msbuildProject": "../Abstract/Abstract.csproj"
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
     "Data/1.0.0": {
       "type": "project",
       "path": "../Data/Data.csproj",
@@ -11621,6 +11642,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Abstract >= 1.0.0",
+      "Application >= 1.0.0",
       "Data >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -11657,6 +11679,9 @@
           "projectReferences": {
             "/home/kareem/Github Source/ClinicApp/Api/Abstract/Abstract.csproj": {
               "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Abstract/Abstract.csproj"
+            },
+            "/home/kareem/Github Source/ClinicApp/Api/Application/Application.csproj": {
+              "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Application/Application.csproj"
             },
             "/home/kareem/Github Source/ClinicApp/Api/Data/Data.csproj": {
               "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Data/Data.csproj"

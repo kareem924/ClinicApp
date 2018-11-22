@@ -1,12 +1,13 @@
 ﻿using Framework.Extensions;
 using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using System.Text;
 using Xunit;
 
 namespace UnitTest.FrameWork
 {
-    
+
     public class StringExtensionsUnitTesting
     {
         [Fact]
@@ -16,7 +17,7 @@ namespace UnitTest.FrameWork
             const string intString = "6";
             var valueToTest = intString.ToInt32();
             // Act
-            var result =6;
+            var result = 6;
             //Assert
             Assert.Equal(valueToTest, result);
         }
@@ -35,12 +36,12 @@ namespace UnitTest.FrameWork
         {
             // Arrange
             const string intString = "ddf3";
-           var ex =  Assert.Throws<InvalidCastException>(() => intString.ToInt32());
-          
+            var ex = Assert.Throws<InvalidCastException>(() => intString.ToInt32());
+
             Assert.Equal("Specified cast is not valid.", ex.Message);
 
         }
-          
+
         [Fact]
         public void Encrypt_String_Success()
         {
@@ -63,9 +64,12 @@ namespace UnitTest.FrameWork
             //arrange
             var ecryptValue = stringToEncrypt.Encrypt(key);
             //act
-            var decrtyptValue = ecryptValue.Decrypt(key2);
+            
+          var ex =  Assert.Throws<CryptographicException>(() => ecryptValue.Decrypt(key2));
             //assert 
-            Assert.NotEqual(decrtyptValue, stringToEncrypt);
+  
+
+            Assert.Equal("Padding is invalid and cannot be removed.", ex.Message);
         }
     }
 }

@@ -1,14 +1,16 @@
+using System.Threading.Tasks;
+using Abstract.Entities;
 using Framework.Models.Result;
 
 namespace Abstract.Service
 {
     public interface IAuthenticationService
     {
-        LoginResult login(string userName, string password);
-        bool ResetPassword(string email, string oldPassword, string newPassword);
-        bool ForgetPassword(string email);
-        bool ActivateEmail(string code);
-        bool Check(string name, string password);
-        JwtResult GenerateToken(string userName, string password);
+        Task<LoginResult> login(string userName, string password);
+        Task<bool> ResetPassword(string email, string oldPassword, string newPassword);
+        Task<bool> ForgetPassword(string email);
+        Task<bool> ActivateEmail(string code);
+        Task<Users> Check(string name, string password);
+        JwtResult GenerateToken(UserDto user);
     }
 }
