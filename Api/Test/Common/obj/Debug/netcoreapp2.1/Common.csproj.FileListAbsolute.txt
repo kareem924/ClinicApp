@@ -1,14 +1,3 @@
-D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.deps.json
-D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.runtimeconfig.json
-D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.runtimeconfig.dev.json
-D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.dll
-D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.pdb
-D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.csprojAssemblyReference.cache
-D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.csproj.CoreCompileInputs.cache
-D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.AssemblyInfoInputs.cache
-D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.AssemblyInfo.cs
-D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.dll
-D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.pdb
 /media/kareem/New Volume/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.deps.json
 /media/kareem/New Volume/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.runtimeconfig.json
 /media/kareem/New Volume/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.runtimeconfig.dev.json
@@ -31,3 +20,14 @@ D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/obj/Debug/netcoreap
 /home/kareem/Github Source/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.AssemblyInfo.cs
 /home/kareem/Github Source/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.dll
 /home/kareem/Github Source/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.pdb
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\Common\bin\Debug\netcoreapp2.1\Common.deps.json
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\Common\bin\Debug\netcoreapp2.1\Common.runtimeconfig.json
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\Common\bin\Debug\netcoreapp2.1\Common.runtimeconfig.dev.json
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\Common\bin\Debug\netcoreapp2.1\Common.dll
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\Common\bin\Debug\netcoreapp2.1\Common.pdb
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\Common\obj\Debug\netcoreapp2.1\Common.csprojAssemblyReference.cache
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\Common\obj\Debug\netcoreapp2.1\Common.csproj.CoreCompileInputs.cache
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\Common\obj\Debug\netcoreapp2.1\Common.AssemblyInfoInputs.cache
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\Common\obj\Debug\netcoreapp2.1\Common.AssemblyInfo.cs
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\Common\obj\Debug\netcoreapp2.1\Common.dll
+D:\Projects for studying\clinicApp\ClinicApp\Api\Test\Common\obj\Debug\netcoreapp2.1\Common.pdb

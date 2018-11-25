@@ -12,20 +12,6 @@
 /media/kareem/New Volume/Github Source/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.csproj.CopyComplete
 /media/kareem/New Volume/Github Source/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.dll
 /media/kareem/New Volume/Github Source/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.pdb
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/bin/Debug/netcoreapp2.1/Data.deps.json
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/bin/Debug/netcoreapp2.1/Data.dll
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/bin/Debug/netcoreapp2.1/Data.pdb
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/bin/Debug/netcoreapp2.1/Abstract.dll
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/bin/Debug/netcoreapp2.1/Framework.dll
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/bin/Debug/netcoreapp2.1/Abstract.pdb
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/bin/Debug/netcoreapp2.1/Framework.pdb
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.csprojAssemblyReference.cache
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.csproj.CoreCompileInputs.cache
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.AssemblyInfoInputs.cache
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.AssemblyInfo.cs
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.csproj.CopyComplete
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.dll
-D:/Projects for studying/clinicApp/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.pdb
 /home/kareem/Github Source/ClinicApp/Api/Data/bin/Debug/netcoreapp2.1/Data.deps.json
 /home/kareem/Github Source/ClinicApp/Api/Data/bin/Debug/netcoreapp2.1/Data.dll
 /home/kareem/Github Source/ClinicApp/Api/Data/bin/Debug/netcoreapp2.1/Data.pdb
@@ -40,3 +26,17 @@ D:/Projects for studying/clinicApp/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Da
 /home/kareem/Github Source/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.csproj.CopyComplete
 /home/kareem/Github Source/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.dll
 /home/kareem/Github Source/ClinicApp/Api/Data/obj/Debug/netcoreapp2.1/Data.pdb
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\bin\Debug\netcoreapp2.1\Data.deps.json
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\bin\Debug\netcoreapp2.1\Data.dll
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\bin\Debug\netcoreapp2.1\Data.pdb
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\bin\Debug\netcoreapp2.1\Abstract.dll
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\bin\Debug\netcoreapp2.1\Framework.dll
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\bin\Debug\netcoreapp2.1\Abstract.pdb
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\bin\Debug\netcoreapp2.1\Framework.pdb
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\obj\Debug\netcoreapp2.1\Data.csproj.CopyComplete
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\obj\Debug\netcoreapp2.1\Data.dll
+D:\Projects for studying\clinicApp\ClinicApp\Api\Data\obj\Debug\netcoreapp2.1\Data.pdb
