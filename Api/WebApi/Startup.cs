@@ -27,7 +27,7 @@ namespace WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            Data.Configure.ConfigureServices(services,Configuration.GetConnectionString("defaultConnection"));
+            Data.Configure.ConfigureServices(services, Configuration.GetConnectionString("defaultConnection"));
             Application.Configure.ConfigureServices(services);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSwaggerGen(c =>
@@ -35,19 +35,14 @@ namespace WebApi
                 c.SwaggerDoc("v1", new Info
                 {
                     Version = "v1",
-                    Title = "ToDo API",
-                    Description = "A simple example ASP.NET Core Web API",
+                    Title = "Clinic API",
+                    Description = "A simple Clinic app",
                     TermsOfService = "None",
                     Contact = new Contact
                     {
-                        Name = "Shayne Boyer",
-                        Email = string.Empty,
+                        Name = "Kareem Osama",
+                        Email = "kareemmuhammad924@gmail.com",
                         Url = "https://twitter.com/kareem924"
-                    },
-                    License = new License
-                    {
-                        Name = "Use under LICX",
-                        Url = "https://example.com/license"
                     }
                 });
             });
@@ -64,7 +59,7 @@ namespace WebApi
             {
                 app.UseHsts();
             }
-            
+
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {

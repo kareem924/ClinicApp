@@ -1,0 +1,6 @@
+2018-11-26 14:06:15.7756||DEBUG|WebApi.Program|init main 
+2018-11-26 14:06:23.7992||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2018-11-26 14:06:25.3658|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:13389/swagger/index.html   
+2018-11-26 14:06:25.3658|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:13389/  0 
+2018-11-26 14:06:25.5655|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 175.6572ms 200  
+2018-11-26 14:06:26.0634|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 696.8863ms 200 text/html 
