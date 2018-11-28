@@ -19,6 +19,7 @@
 D:\Projects for studying\clinicApp\ClinicApp\Api\Framework\bin\Debug\netcoreapp2.1\Framework.deps.json
 D:\Projects for studying\clinicApp\ClinicApp\Api\Framework\bin\Debug\netcoreapp2.1\Framework.dll
 D:\Projects for studying\clinicApp\ClinicApp\Api\Framework\bin\Debug\netcoreapp2.1\Framework.pdb
+D:\Projects for studying\clinicApp\ClinicApp\Api\Framework\obj\Debug\netcoreapp2.1\Framework.csprojAssemblyReference.cache
 D:\Projects for studying\clinicApp\ClinicApp\Api\Framework\obj\Debug\netcoreapp2.1\Framework.csproj.CoreCompileInputs.cache
 D:\Projects for studying\clinicApp\ClinicApp\Api\Framework\obj\Debug\netcoreapp2.1\Framework.AssemblyInfoInputs.cache
 D:\Projects for studying\clinicApp\ClinicApp\Api\Framework\obj\Debug\netcoreapp2.1\Framework.AssemblyInfo.cs
