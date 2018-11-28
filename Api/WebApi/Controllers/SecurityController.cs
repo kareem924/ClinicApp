@@ -24,7 +24,7 @@ namespace WebApi.Controllers
          [HttpGet("Login")]
         public async Task<LoginResult> Login(string username,string password )
         {
-            _logger.LogInformation(LoggingEvents.GetItem, "Logging in", username);
+            _logger.LogInformation(LoggingEvents.Loging, "Logging in", username);
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 _logger.LogWarning(LoggingEvents.GetItemNotFound, "Bad Request");
