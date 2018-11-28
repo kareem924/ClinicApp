@@ -11,101 +11,70 @@ namespace Data.Repositry
 {
     public class DapperRepositry<T> : IBasicRepositrory<T> where T : class
     {
-       public IConnectionFactory _connectionFactory;
-        public DapperRepositry(IConnectionFactory connectionFactory)
+       public IUnitOfWork _ouw;
+        public DapperRepositry(IUnitOfWork ouw)
         {
-            _connectionFactory = connectionFactory;
+            _ouw = ouw;
         }
         public IEnumerable<T> All()
         {
-            using (var connection = _connectionFactory.GetConnection)
-            {
-                var all = connection.GetAll<T>();
-                return all;
-            }
+            return _ouw.Connection.GetAll<T>(_ouw.Transaction);
+           
         }
 
         public async Task<IEnumerable<T>> AllAsync()
         {
-            using (var connection = _connectionFactory.GetConnection)
-            {
-                var all = await connection.GetAllAsync<T>();
-                return all;
-            }
+            return await _ouw.Connection.GetAllAsync<T>(_ouw.Transaction);
+           
         }
 
         public bool Delete(T id)
         {
-            using (var connection = _connectionFactory.GetConnection)
-            {
-                var all = connection.Delete<T>(id);
-                return all;
-            }
+            return  _ouw.Connection.Delete<T>(id,_ouw.Transaction);
+         
         }
 
         public async Task<bool> DeleteAsync(T t)
         {
-            using (var connection = _connectionFactory.GetConnection)
-            {
-                var all = await connection.DeleteAsync<T>(t);
-                return all;
-            }
+            return await _ouw.Connection.DeleteAsync<T>(t, _ouw.Transaction);
+           
         }
 
         public T Get(object id)
         {
-            using (var connection = _connectionFactory.GetConnection)
-            {
-                var obj = connection.Get<T>(id);
-                return obj;
-            }
+            return  _ouw.Connection.Get<T>(id, _ouw.Transaction);
+           
         }
 
         public async Task<T> GetAsync(object id)
         {
-            using (var connection = _connectionFactory.GetConnection)
-            {
-                var obj = await connection.GetAsync<T>(id);
-                return obj;
-            }
+            return await _ouw.Connection.GetAsync<T>(id, _ouw.Transaction);
         }
 
         public T Insert(T t)
         {
-            using (var connection = _connectionFactory.GetConnection)
-            {
-                var obj = connection.Insert<T>(t);
-                var insertedObj = connection.QuerySingle<T>(@"Select * FROM " + typeof(T).Name + " where Id =" + obj);
-                return insertedObj;
-            }
+            var obj = _ouw.Connection.Insert<T>(t, _ouw.Transaction);
+            var insertedObj = _ouw.Connection.QueryFirstOrDefault<T>(@"Select * FROM " + typeof(T).Name + " where Id =" + obj, _ouw.Transaction);
+            return insertedObj;
+           
         }
 
         public async Task<T> InsertAsync(T t)
         {
-            using (var connection = _connectionFactory.GetConnection)
-            {
-                var obj = await connection.InsertAsync<T>(t);
-                var insertedObj = await connection.QuerySingleAsync<T>(@"Select * FROM " + typeof(T).Name + " where Id =" + obj);
-                return insertedObj;
-            }
+            var obj = await _ouw.Connection.InsertAsync<T>(t, _ouw.Transaction);
+            var insertedObj = await _ouw.Connection.QueryFirstOrDefaultAsync<T>(@"Select * FROM " + typeof(T).Name + " where Id =" + obj, _ouw.Transaction);
+            return insertedObj;
         }
 
         public bool Update(T t)
         {
-             using (var connection = _connectionFactory.GetConnection)
-            {
-                var obj = connection.Update<T>(t);
-                return obj;
-            }
+          return  _ouw.Connection.Update<T>(t,_ouw.Transaction);
+            
         }
 
         public async Task<bool> UpdateAsync(T t)
         {
-           using (var connection = _connectionFactory.GetConnection)
-            {
-                var obj = await connection.UpdateAsync<T>(t);
-                return obj;
-            }
+            return await _ouw.Connection.UpdateAsync<T>(t, _ouw.Transaction);
         }
     }
 }

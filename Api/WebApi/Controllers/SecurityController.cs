@@ -21,7 +21,7 @@ namespace WebApi.Controllers
             _authenticationService = authenticationService;
             _logger = logger;
         }
-         [HttpGet]
+         [HttpGet("Login")]
         public async Task<LoginResult> Login(string username,string password )
         {
             _logger.LogInformation(LoggingEvents.GetItem, "Logging in", username);
