@@ -36,7 +36,7 @@ namespace Framework.CrudService
                 var enitiy = MapModelToEntity(model);
                 await Repository.AddAsync(enitiy);
                 Result.ObjectModel = MapEntityToModel(enitiy);
-                await Ouw.CommitAsync();
+                 Ouw.Commit();
                 Result.EntityId = MapEntityToModel(enitiy).Id;
                 return Result;
             }
@@ -54,9 +54,8 @@ namespace Framework.CrudService
                 CurrentModel = model;
                 ValidateUpdate();
                 if (!Result.IsValid) return Result;
-                
-                Repository.Update(MapModelToEntity(model), model.Id);
-                await Ouw.CommitAsync();
+               await Repository.UpdateAsync(MapModelToEntity(model), model.Id);
+                Ouw.Commit();
                 Result.EntityId = model.Id;
                 return Result;
             }
@@ -75,7 +74,7 @@ namespace Framework.CrudService
                 if (!Result.IsValid) return Result;
                 var entityToUpdate = await Repository.GetAsync(id);
                 entityToUpdate.IsDeleted = true;
-                await Ouw.CommitAsync();
+                Ouw.Commit();
                 return Result;
             }
             catch (Exception e)

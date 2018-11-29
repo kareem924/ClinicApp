@@ -3,6 +3,7 @@ using Abstract.Infrastructure;
 using Abstract.Repositry;
 using Data.Connection;
 using Data.Repositry;
+using Framework.UnitOfWork;
 using Microsoft.Extensions.DependencyInjection;
 namespace Data
 {
@@ -15,8 +16,8 @@ namespace Data
              services.AddScoped<IConnectionFactory>(sp=>
              {return new SqlConnectionFactory(connectionString); });
              services.AddTransient<IUserRepositry,UserRepositry>();
+            services.AddTransient<IUnitOfWork, DapperUnitOfWork>();
 
-           
         }
 
     }

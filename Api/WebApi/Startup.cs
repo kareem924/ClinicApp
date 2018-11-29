@@ -23,11 +23,15 @@ namespace WebApi
         }
 
         public IConfiguration Configuration { get; }
-
+        public virtual void SetupDatabase(IServiceCollection services)
+        {
+            Data.Configure.ConfigureServices(services, Configuration.GetConnectionString("defaultConnection"));
+           
+        }
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            Data.Configure.ConfigureServices(services, Configuration.GetConnectionString("defaultConnection"));
+            SetupDatabase(services);
             Application.Configure.ConfigureServices(services);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSwaggerGen(c =>

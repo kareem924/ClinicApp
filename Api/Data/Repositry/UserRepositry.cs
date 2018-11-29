@@ -6,18 +6,21 @@ using Abstract.Infrastructure;
 using Abstract.Repositry;
 using Dapper;
 using Framework.Extensions;
+using Framework.UnitOfWork;
 
 namespace Data.Repositry
 {
     public class UserRepositry : DapperRepositry<Users>, IUserRepositry
     {
-        public UserRepositry(IConnectionFactory connectionFactory) : base(connectionFactory)
+        IUnitOfWork _unitOfWork;
+        public UserRepositry(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
+            _unitOfWork = unitOfWork;
         }
 
         public async Task<bool> ActivateEmailAsync(string activationCode, string email)
         {
-            
+
             throw new System.NotImplementedException();
         }
 
@@ -30,14 +33,11 @@ namespace Data.Repositry
         {
             string sql = @"select top 1 * FROM users where
             PasswordHash=@HashedPassword AND (Email=@userName OR UserName=@userName)";
-            using (var connection = _connectionFactory.GetConnection)
-            {
-                Users userByUsernameOrEmail = null;
-                userByUsernameOrEmail = await connection.QueryFirstOrDefaultAsync<Users>(sql, new { HashedPassword = hashedPassword, userName = userName });
+            Users userByUsernameOrEmail = null;
+            userByUsernameOrEmail = await _unitOfWork.Connection.QueryFirstOrDefaultAsync<Users>(sql, new { HashedPassword = hashedPassword, userName = userName });
+            return userByUsernameOrEmail;
 
-                return userByUsernameOrEmail;
 
-            }
         }
 
         public Task<bool> DisactiveUser(int Id)
@@ -47,26 +47,20 @@ namespace Data.Repositry
 
         public async Task<Users> GetByEmailAsync(string email)
         {
-            using (var connection = _connectionFactory.GetConnection)
-            {
+            return await _unitOfWork.Connection.QuerySingleAsync<Users>(@"Select top 1 FROM users where  Email=" + email);
 
-                return await connection.QuerySingleAsync<Users>(@"Select top 1 FROM users where  Email=" + email);
-
-            }
         }
 
         public async Task<bool> UptadePasswordAsync(string newPassword, Users user)
         {
 
             string sql = "UPDATE Users SET EncryptedPassword = @newPassword WHERE Id = @Id;";
-            using (var connection = _connectionFactory.GetConnection)
-            {
-               
-                int affectedRows = await connection.ExecuteAsync(sql,new {newPassword=newPassword.ToMD5Hash(),Id=user.Id});
-                 return affectedRows >0;
-            }
+
+            int affectedRows = await _unitOfWork.Connection.ExecuteAsync(sql, new { newPassword = newPassword.ToMD5Hash(), Id = user.Id });
+            return affectedRows > 0;
+
         }
 
-       
+
     }
 }

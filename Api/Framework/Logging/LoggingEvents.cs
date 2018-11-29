@@ -13,6 +13,7 @@ namespace Framework.Logging
         public const int UpdateItem = 1004;
         public const int DeleteItem = 1005;
 
+        public const int Loging = 2001;
         public const int GetItemNotFound = 4000;
         public const int UpdateItemNotFound = 4001;
     }

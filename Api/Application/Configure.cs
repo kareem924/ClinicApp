@@ -1,5 +1,6 @@
 using Abstract.Service;
 using Application.SecurityService;
+using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Application
@@ -12,8 +13,9 @@ namespace Application
             //services.AddDbContext<UserManagementDbContext>(options => options.UseSqlServer(connectionString));
              
              services.AddTransient<IAuthenticationService,AuthenticationService>();
+             services.AddAutoMapper(x => x.AddProfile(new MappingProfile()));
 
-           
+
         }
 
     }
