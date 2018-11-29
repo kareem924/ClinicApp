@@ -21,6 +21,11 @@ namespace Data.Repositry
             throw new System.NotImplementedException();
         }
 
+        public Task<bool> ActivateUser(int Id)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public async Task<Users> CheckIsAuthorisedUserAsync(string userName, string hashedPassword)
         {
             string sql = @"select top 1 * FROM users where
@@ -33,6 +38,11 @@ namespace Data.Repositry
                 return userByUsernameOrEmail;
 
             }
+        }
+
+        public Task<bool> DisactiveUser(int Id)
+        {
+            throw new System.NotImplementedException();
         }
 
         public async Task<Users> GetByEmailAsync(string email)

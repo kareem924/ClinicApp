@@ -43,7 +43,7 @@ namespace Application.SecurityService
 
             };
         }
-
+        
         public async Task<LoginResult> login(string userName, string password)
         {
             LoginResult rslt;
