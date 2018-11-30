@@ -6,15 +6,18 @@ using System.Threading.Tasks;
 using Abstract.Entities;
 using Newtonsoft.Json;
 using System;
+using Microsoft.Extensions.Configuration;
 
 namespace Application.SecurityService
 {
     public class AuthenticationService : IAuthenticationService
     {
         private readonly IUserRepositry _userRepositry;
-        public AuthenticationService(IUserRepositry userRepositry)
+        private IConfiguration _configuration;
+        public AuthenticationService(IUserRepositry userRepositry, IConfiguration configuration)
         {
             _userRepositry = userRepositry;
+            _configuration = configuration;
         }
         public Task<bool> ActivateEmail(string code)
         {
@@ -38,9 +41,8 @@ namespace Application.SecurityService
             var objectSerialzed = JsonConvert.SerializeObject(user);
             return new JwtResult
             {
-                Token = objectSerialzed.Encrypt("h12sdfq4go8743f"),
-                ExpiredToken=DateTime.Now.AddHours(24),
-
+                Token = objectSerialzed.Encrypt(_configuration.GetSection("Encryption").GetSection("key").Value),
+                ExpiredToken =DateTime.Now.AddHours(24),
             };
         }
 
