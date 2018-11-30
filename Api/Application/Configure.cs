@@ -12,7 +12,7 @@ namespace Application
             //Context lifetime defaults to "scoped"
             //services.AddDbContext<UserManagementDbContext>(options => options.UseSqlServer(connectionString));
              
-             services.AddTransient<IAuthenticationService,AuthenticationService>();
+
              services.AddAutoMapper(x => x.AddProfile(new MappingProfile()));
 
 

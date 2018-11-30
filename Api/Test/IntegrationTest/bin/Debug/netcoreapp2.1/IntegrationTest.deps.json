@@ -2260,6 +2260,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.0.0",
           "Data": "1.0.0",
           "Framework": "1.0.0",
+          "Microsoft.Extensions.Caching.Memory": "2.1.1",
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
@@ -2283,6 +2284,8 @@
           "Microsoft.AspNetCore.DataProtection.Abstractions": "1.1.0",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
           "Microsoft.AspNetCore.Http.Features": "2.1.1",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Mvc.Core": "2.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.1"
         },
         "runtime": {

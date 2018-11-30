@@ -19,6 +19,7 @@ D:/Projects for studying/clinicApp/ClinicApp/Api/Test/FunctionalTest/obj/Debug/n
 /home/kareem/Github Source/ClinicApp/Api/Test/FunctionalTest/bin/Debug/netstandard2.0/FunctionalTest.deps.json
 /home/kareem/Github Source/ClinicApp/Api/Test/FunctionalTest/bin/Debug/netstandard2.0/FunctionalTest.dll
 /home/kareem/Github Source/ClinicApp/Api/Test/FunctionalTest/bin/Debug/netstandard2.0/FunctionalTest.pdb
+/home/kareem/Github Source/ClinicApp/Api/Test/FunctionalTest/obj/Debug/netstandard2.0/FunctionalTest.csprojAssemblyReference.cache
 /home/kareem/Github Source/ClinicApp/Api/Test/FunctionalTest/obj/Debug/netstandard2.0/FunctionalTest.csproj.CoreCompileInputs.cache
 /home/kareem/Github Source/ClinicApp/Api/Test/FunctionalTest/obj/Debug/netstandard2.0/FunctionalTest.AssemblyInfoInputs.cache
 /home/kareem/Github Source/ClinicApp/Api/Test/FunctionalTest/obj/Debug/netstandard2.0/FunctionalTest.AssemblyInfo.cs

@@ -3082,10 +3082,11 @@
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/1.1.0": {
-      "sha512": "uMbUDz/lNoO9LGc+DSjKMLWJk+y4qX6syDRcmQC0w6LSQzizkRqmo5Y8jO0ePtZRjF2lSGgO5URt4YgB6STDBQ==",
+      "sha512": "18J7iXjNMy2iWHM0+5nmV/8jgP9nti6EE2mE2GzxO4H09/rdKOF8mqYdc3tHrjDQPDYJiJNpgsoON8z2hHY+SQ==",
       "type": "package",
       "path": "microsoft.extensions.caching.abstractions/1.1.0",
       "files": [
+        ".signature.p7s",
         "lib/netstandard1.0/Microsoft.Extensions.Caching.Abstractions.dll",
         "lib/netstandard1.0/Microsoft.Extensions.Caching.Abstractions.xml",
         "microsoft.extensions.caching.abstractions.1.1.0.nupkg.sha512",
@@ -3093,10 +3094,11 @@
       ]
     },
     "Microsoft.Extensions.Caching.Memory/1.1.0": {
-      "sha512": "ihFzFRKf/LrXHIvn0wDDt6oLxaAjsCPfrIzV9CLrTURD7qT+HujJ0TaRfC91e6tB8OAgkzY4AsHRBNq8KzrQQQ==",
+      "sha512": "hAkVVLH5WPoRbrltdbn9y7IQ6xYxv6qFoiAbD5LuzXBhZapW0XTFp/Bd8AhAx/IXyItJkO9U3v8ovs4bcLVUow==",
       "type": "package",
       "path": "microsoft.extensions.caching.memory/1.1.0",
       "files": [
+        ".signature.p7s",
         "lib/net451/Microsoft.Extensions.Caching.Memory.dll",
         "lib/net451/Microsoft.Extensions.Caching.Memory.xml",
         "lib/netstandard1.3/Microsoft.Extensions.Caching.Memory.dll",
@@ -7984,5 +7986,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /home/kareem/Github Source/ClinicApp/Api/Test/UnitTest/obj/UnitTest.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
