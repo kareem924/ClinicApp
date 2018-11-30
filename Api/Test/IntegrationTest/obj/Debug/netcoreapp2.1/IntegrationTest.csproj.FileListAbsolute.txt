@@ -1,27 +1,54 @@
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\nlog.config
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\IntegrationTest.deps.json
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\IntegrationTest.runtimeconfig.json
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\IntegrationTest.runtimeconfig.dev.json
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\IntegrationTest.dll
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\IntegrationTest.pdb
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\Abstract.dll
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\Application.dll
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\Data.dll
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\Framework.dll
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\WebApi.dll
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\Abstract.pdb
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\Application.pdb
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\Data.pdb
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\Framework.pdb
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\WebApi.pdb
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\WebApi.xml
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netcoreapp2.1\IntegrationTest.csprojAssemblyReference.cache
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netcoreapp2.1\IntegrationTest.csproj.CoreCompileInputs.cache
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netcoreapp2.1\IntegrationTest.AssemblyInfoInputs.cache
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netcoreapp2.1\IntegrationTest.AssemblyInfo.cs
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netcoreapp2.1\IntegrationTest.csproj.CopyComplete
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netcoreapp2.1\IntegrationTest.dll
-D:\Projects for studying\clinicApp\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netcoreapp2.1\IntegrationTest.pdb
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/nlog.config
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/IntegrationTest.deps.json
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/IntegrationTest.runtimeconfig.json
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/IntegrationTest.runtimeconfig.dev.json
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/IntegrationTest.dll
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/IntegrationTest.pdb
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Abstract.dll
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Application.dll
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Data.dll
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Framework.dll
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/WebApi.dll
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Abstract.pdb
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Application.pdb
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Data.pdb
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Framework.pdb
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/WebApi.pdb
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/WebApi.xml
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.csprojAssemblyReference.cache
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.csproj.CoreCompileInputs.cache
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.AssemblyInfoInputs.cache
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.AssemblyInfo.cs
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.csproj.CopyComplete
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.dll
+D:/Projects for studying/clinicApp/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.pdb
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/nlog.config
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/IntegrationTest.deps.json
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/IntegrationTest.runtimeconfig.json
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/IntegrationTest.runtimeconfig.dev.json
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/IntegrationTest.dll
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/IntegrationTest.pdb
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Abstract.dll
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Application.dll
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Data.dll
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Framework.dll
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/WebApi.dll
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Abstract.pdb
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Application.pdb
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Data.pdb
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/Framework.pdb
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/WebApi.pdb
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/bin/Debug/netcoreapp2.1/WebApi.xml
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.csprojAssemblyReference.cache
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.csproj.CoreCompileInputs.cache
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.AssemblyInfoInputs.cache
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.AssemblyInfo.cs
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.csproj.CopyComplete
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.dll
+/home/kareem/Github Source/ClinicApp/Api/Test/IntegrationTest/obj/Debug/netcoreapp2.1/IntegrationTest.pdb

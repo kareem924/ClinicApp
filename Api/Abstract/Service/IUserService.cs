@@ -11,6 +11,7 @@ namespace Abstract.Service
          Task<ValidationResult> Add(UserDto model);
          Task<ValidationResult> Update(UserDto model);
          Task<ValidationResult> Delete(int id);
+         Task<UserDto> GetById(int id);
 
     }
 }

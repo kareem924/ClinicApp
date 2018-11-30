@@ -69,6 +69,9 @@ namespace Application.SecurityService
             throw new System.NotImplementedException();
         }
 
-
+        Task<Users> IAuthenticationService.Check(string name, string password)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
