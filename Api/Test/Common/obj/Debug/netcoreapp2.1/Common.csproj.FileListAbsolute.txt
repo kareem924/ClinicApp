@@ -33,27 +33,3 @@ D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/obj/Debug/netcoreap
 D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.csproj.CopyComplete
 D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.dll
 D:/Projects for studying/clinicApp/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.pdb
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/nlog.config
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.deps.json
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.runtimeconfig.json
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.runtimeconfig.dev.json
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.dll
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Common.pdb
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Abstract.dll
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Application.dll
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Data.dll
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Framework.dll
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/WebApi.dll
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Abstract.pdb
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Data.pdb
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Framework.pdb
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/WebApi.pdb
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/WebApi.xml
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/bin/Debug/netcoreapp2.1/Application.pdb
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.csprojAssemblyReference.cache
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.csproj.CoreCompileInputs.cache
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.AssemblyInfoInputs.cache
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.AssemblyInfo.cs
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.csproj.CopyComplete
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.dll
-/home/kareem/Github Source/ClinicApp/Api/Test/Common/obj/Debug/netcoreapp2.1/Common.pdb

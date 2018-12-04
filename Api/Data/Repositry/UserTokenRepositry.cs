@@ -1,11 +1,12 @@
 using System.Threading.Tasks;
 using Abstract.Entities;
+using Abstract.Repositry;
 using Dapper;
 using Framework.UnitOfWork;
 
 namespace Data.Repositry
 {
-    public class UserTokenRepositry : DapperRepositry<UserTokens>
+    public class UserTokenRepositry : DapperRepositry<UserTokens>,IUserTokenRepositry
     {
          private readonly IUnitOfWork _unitOfWork;
         public UserTokenRepositry(IUnitOfWork ouw) : base(ouw)

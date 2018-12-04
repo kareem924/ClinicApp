@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Abstract.Entities
 {
+       [Table("UserClaims")]
     public partial class UserClaims
     {
         public int Id { get; set; }

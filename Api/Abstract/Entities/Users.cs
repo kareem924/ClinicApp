@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Abstract.Entities
 {
+      [Table("Users")]
     public partial class Users
     {
         public Users()
         {
-            UserClaims = new HashSet<UserClaims>();
-            UserTokens = new HashSet<UserTokens>();
+           
         }
 
         public int Id { get; set; }
@@ -26,7 +28,6 @@ namespace Abstract.Entities
         public string UsernameNormalized { get; set; }
         public int UserTypeId { get; set; }
         public string PasswordHash { get; set; }
-        public ICollection<UserClaims> UserClaims { get; set; }
-        public ICollection<UserTokens> UserTokens { get; set; }
+
     }
 }

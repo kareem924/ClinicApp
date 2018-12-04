@@ -30,6 +30,10 @@ D:/Projects for studying/clinicApp/ClinicApp/Api/Application/obj/Debug/netcoreap
 D:/Projects for studying/clinicApp/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.csproj.CopyComplete
 D:/Projects for studying/clinicApp/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.dll
 D:/Projects for studying/clinicApp/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.pdb
+/home/kareem/Github Source/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.csprojAssemblyReference.cache
+/home/kareem/Github Source/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.csproj.CoreCompileInputs.cache
+/home/kareem/Github Source/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.AssemblyInfoInputs.cache
+/home/kareem/Github Source/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.AssemblyInfo.cs
 /home/kareem/Github Source/ClinicApp/Api/Application/bin/Debug/netcoreapp2.1/Application.deps.json
 /home/kareem/Github Source/ClinicApp/Api/Application/bin/Debug/netcoreapp2.1/Application.dll
 /home/kareem/Github Source/ClinicApp/Api/Application/bin/Debug/netcoreapp2.1/Application.pdb
@@ -39,10 +43,6 @@ D:/Projects for studying/clinicApp/ClinicApp/Api/Application/obj/Debug/netcoreap
 /home/kareem/Github Source/ClinicApp/Api/Application/bin/Debug/netcoreapp2.1/Framework.pdb
 /home/kareem/Github Source/ClinicApp/Api/Application/bin/Debug/netcoreapp2.1/Data.pdb
 /home/kareem/Github Source/ClinicApp/Api/Application/bin/Debug/netcoreapp2.1/Abstract.pdb
-/home/kareem/Github Source/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.csprojAssemblyReference.cache
-/home/kareem/Github Source/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.csproj.CoreCompileInputs.cache
-/home/kareem/Github Source/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.AssemblyInfoInputs.cache
-/home/kareem/Github Source/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.AssemblyInfo.cs
 /home/kareem/Github Source/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.csproj.CopyComplete
 /home/kareem/Github Source/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.dll
 /home/kareem/Github Source/ClinicApp/Api/Application/obj/Debug/netcoreapp2.1/Application.pdb
