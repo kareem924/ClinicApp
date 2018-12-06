@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Abstract.Entities
 {
+    [Table("SysPageActions")]
     public partial class SysPageActions
     {
         public int Id { get; set; }
@@ -11,8 +13,6 @@ namespace Abstract.Entities
         public bool IsAllowed { get; set; }
         public int? RoleId { get; set; }
 
-        public SysActions Action { get; set; }
-        public SysPages Page { get; set; }
-        public Roles Role { get; set; }
+       
     }
 }

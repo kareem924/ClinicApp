@@ -5,7 +5,7 @@ namespace Framework.Models.Result
         public bool IsAuhtentaced { get; set; }
         public string Message { get; set; }
         public JwtResult Token { get; set; }
-        public ContextUser UserData { get; set; }
+       
 
     }
 }

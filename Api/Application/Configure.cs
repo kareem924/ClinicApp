@@ -1,5 +1,6 @@
 using Abstract.Service;
 using Application.SecurityService;
+using Application.User;
 using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -12,9 +13,10 @@ namespace Application
             //Context lifetime defaults to "scoped"
             //services.AddDbContext<UserManagementDbContext>(options => options.UseSqlServer(connectionString));
              
-             services.AddTransient<IAuthenticationService,AuthenticationService>();
-             services.AddAutoMapper(x => x.AddProfile(new MappingProfile()));
 
+             services.AddAutoMapper(x => x.AddProfile(new MappingProfile()));
+            services.AddTransient<ILoginService,LoginService>();   
+             services.AddTransient<IUserService,UsersService>();   
 
         }
 
