@@ -10,7 +10,7 @@ namespace Framework.Models
         public string DisplayName { get; set; }
         public long ExpiresOn { get; set; }
         public bool Authenticated { get; set; }
-        public IEnumerable<Claim> MyClaims { get; set; }
+        public IList<Claim> MyClaims { get; set; }
         public override IEnumerable<Claim> Claims => MyClaims;
         public override bool IsAuthenticated => Authenticated;
         public override string AuthenticationType => "Bearer";

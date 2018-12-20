@@ -11924,41 +11924,43 @@
     ]
   },
   "packageFolders": {
-    "/home/kareem/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kareem/Github Source/ClinicApp/Api/WebApi/WebApi.csproj",
+      "projectUniqueName": "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "/home/kareem/Github Source/ClinicApp/Api/WebApi/WebApi.csproj",
-      "packagesPath": "/home/kareem/.nuget/packages/",
-      "outputPath": "/home/kareem/Github Source/ClinicApp/Api/WebApi/obj/",
+      "projectPath": "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/kareem/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/home/kareem/Github Source/ClinicApp/Api/Abstract/Abstract.csproj": {
-              "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Abstract/Abstract.csproj"
+            "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\Abstract\\Abstract.csproj": {
+              "projectPath": "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\Abstract\\Abstract.csproj"
             },
-            "/home/kareem/Github Source/ClinicApp/Api/Application/Application.csproj": {
-              "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Application/Application.csproj"
+            "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\Application\\Application.csproj": {
+              "projectPath": "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\Application\\Application.csproj"
             },
-            "/home/kareem/Github Source/ClinicApp/Api/Data/Data.csproj": {
-              "projectPath": "/home/kareem/Github Source/ClinicApp/Api/Data/Data.csproj"
+            "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\Data\\Data.csproj": {
+              "projectPath": "D:\\Projects for studying\\clinicApp\\ClinicApp\\Api\\Data\\Data.csproj"
             }
           }
         }
@@ -12007,13 +12009,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /home/kareem/Github Source/ClinicApp/Api/WebApi/obj/WebApi.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

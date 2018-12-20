@@ -81,15 +81,16 @@ namespace Application.SecurityService
             var contextUser = new ContextUser();
             contextUser.DisplayName = user.Name;
             contextUser.Lang = "Ar";
-            contextUser.AddClaim(new Claim(ClaimTypes.Name, user.Name));
-            contextUser.AddClaim(new Claim(ClaimTypes.Email, user.Email));
-
-
+            contextUser.MyClaims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Sid, user.Id.ToString()),
+                new Claim(ClaimTypes.NameIdentifier, user.UserName),
+            };
             foreach (var item in userClaims)
             {
-                contextUser.AddClaim(new Claim(item.ClaimName, item.ClaimValue));
-            }
+                contextUser.MyClaims.Add(new Claim(item.ClaimName, item.ClaimValue));
 
+            }
             contextUser.Authenticated = true;
 
             return contextUser;
