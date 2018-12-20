@@ -71,3 +71,29 @@ D:/Projects for studying/clinicApp/ClinicApp/Api/WebApi/obj/Debug/netcoreapp2.1/
 /home/kareem/Github Source/ClinicApp/Api/WebApi/obj/Debug/netcoreapp2.1/WebApi.dll
 /home/kareem/Github Source/ClinicApp/Api/WebApi/obj/Debug/netcoreapp2.1/WebApi.xml
 /home/kareem/Github Source/ClinicApp/Api/WebApi/obj/Debug/netcoreapp2.1/WebApi.pdb
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\WebApi.deps.json
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.json
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.dev.json
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\WebApi.dll
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\WebApi.pdb
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\WebApi.xml
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\Abstract.dll
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\Application.dll
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\Framework.dll
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\Abstract.pdb
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\Application.pdb
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\Framework.pdb
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\obj\Debug\netcoreapp2.1\WebApi.csprojAssemblyReference.cache
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\obj\Debug\netcoreapp2.1\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cache
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cs
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfoInputs.cache
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfo.cs
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\obj\Debug\netcoreapp2.1\WebApi.csproj.CopyComplete
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\obj\Debug\netcoreapp2.1\WebApi.dll
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\obj\Debug\netcoreapp2.1\WebApi.xml
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\obj\Debug\netcoreapp2.1\WebApi.pdb

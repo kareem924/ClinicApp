@@ -1,9 +1,0 @@
-/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/bin/Debug/netstandard2.0/Framework.deps.json
-/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/bin/Debug/netstandard2.0/Framework.dll
-/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/bin/Debug/netstandard2.0/Framework.pdb
-/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/obj/Debug/netstandard2.0/Framework.csprojAssemblyReference.cache
-/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/obj/Debug/netstandard2.0/Framework.csproj.CoreCompileInputs.cache
-/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/obj/Debug/netstandard2.0/Framework.AssemblyInfoInputs.cache
-/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/obj/Debug/netstandard2.0/Framework.AssemblyInfo.cs
-/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/obj/Debug/netstandard2.0/Framework.dll
-/media/kareem/New Volume/Github Source/ClinicApp/Api/Framework/obj/Debug/netstandard2.0/Framework.pdb
