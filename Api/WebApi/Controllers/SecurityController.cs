@@ -15,11 +15,11 @@ namespace WebApi.Controllers
     [ApiController]
     public class SecurityController : ControllerBase
     {
-        private ILoginService _LoginService;
+        private readonly ILoginService _loginService;
         private readonly ILogger _logger;
         public SecurityController(ILoginService loginService, ILogger<SecurityController> logger)
         {
-            _LoginService = loginService;
+            _loginService = loginService;
             _logger = logger;
         }
          [HttpPost("Login")]
@@ -32,7 +32,7 @@ namespace WebApi.Controllers
                 return new LoginResult {IsAuhtentaced=false,Message="",Token=null };
 
             }
-            return await _LoginService.Login(model);
+            return await _loginService.Login(model);
         }
     }
 }

@@ -9,15 +9,15 @@ using WebApi;
 
 namespace Common
 {
-    class TestStartup : Startup
+    public class TestStartup : Startup
     {
         public TestStartup(IConfiguration configuration) : base(configuration)
         {
         }
         public override void SetupDatabase(IServiceCollection services)
         {
-            Data.Configure.ConfigureServices(services, @"Server=localhost;Database=ClinicApp;user Id=sa;password=P@ssw0rd;MultipleActiveResultSets=true");
-            services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            Data.Configure.ConfigureServices(services, @"Server=localhost;Database=ClinicApp;Trusted_Connection=True;MultipleActiveResultSets=true");
+           
 
         }
     }

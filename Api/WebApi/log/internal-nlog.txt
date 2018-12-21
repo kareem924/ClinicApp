@@ -4,3 +4,81 @@
 2018-12-20 21:34:43.5729 Info Adding target File Target[ownFile-web]
 2018-12-20 21:34:43.5729 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
 2018-12-20 21:34:43.6004 Info Found 45 configuration items
+2018-12-21 07:32:57.1138 Info Message Template Auto Format enabled
+2018-12-21 07:32:57.1252 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 07:32:57.2191 Info Adding target File Target[allfile]
+2018-12-21 07:32:57.2494 Info Adding target File Target[ownFile-web]
+2018-12-21 07:32:57.2579 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 07:32:57.2579 Info Found 45 configuration items
+2018-12-21 07:34:17.6272 Info Message Template Auto Format enabled
+2018-12-21 07:34:17.6397 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 07:34:17.7015 Info Adding target File Target[allfile]
+2018-12-21 07:34:17.7015 Info Adding target File Target[ownFile-web]
+2018-12-21 07:34:17.7158 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 07:34:17.7288 Info Found 45 configuration items
+2018-12-21 07:55:28.6022 Info Message Template Auto Format enabled
+2018-12-21 07:55:28.6022 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 07:55:28.7248 Info Adding target File Target[allfile]
+2018-12-21 07:55:28.7279 Info Adding target File Target[ownFile-web]
+2018-12-21 07:55:28.7445 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 07:55:28.7593 Info Found 45 configuration items
+2018-12-21 08:02:25.0102 Info Message Template Auto Format enabled
+2018-12-21 08:02:25.0102 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 08:02:25.1283 Info Adding target File Target[allfile]
+2018-12-21 08:02:25.1419 Info Adding target File Target[ownFile-web]
+2018-12-21 08:02:25.1522 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 08:02:25.1674 Info Found 45 configuration items
+2018-12-21 08:05:51.7130 Info Message Template Auto Format enabled
+2018-12-21 08:05:51.7270 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 08:05:51.8304 Info Adding target File Target[allfile]
+2018-12-21 08:05:51.8731 Info Adding target File Target[ownFile-web]
+2018-12-21 08:05:51.8731 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 08:05:51.8963 Info Found 45 configuration items
+2018-12-21 08:35:41.2075 Info Message Template Auto Format enabled
+2018-12-21 08:35:41.2193 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 08:35:41.3216 Info Adding target File Target[allfile]
+2018-12-21 08:35:41.3216 Info Adding target File Target[ownFile-web]
+2018-12-21 08:35:41.3402 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 08:35:41.3549 Info Found 45 configuration items
+2018-12-21 09:45:37.4029 Info Message Template Auto Format enabled
+2018-12-21 09:45:37.4164 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 09:45:37.5290 Info Adding target File Target[allfile]
+2018-12-21 09:45:37.5396 Info Adding target File Target[ownFile-web]
+2018-12-21 09:45:37.5396 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 09:45:37.5665 Info Found 45 configuration items
+2018-12-21 09:58:28.6541 Info Message Template Auto Format enabled
+2018-12-21 09:58:28.6644 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 09:58:28.7220 Info Adding target File Target[allfile]
+2018-12-21 09:58:28.7260 Info Adding target File Target[ownFile-web]
+2018-12-21 09:58:28.7260 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 09:58:28.7470 Info Found 45 configuration items
+2018-12-21 10:02:36.4303 Info Message Template Auto Format enabled
+2018-12-21 10:02:36.4303 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 10:02:36.5542 Info Adding target File Target[allfile]
+2018-12-21 10:02:36.5568 Info Adding target File Target[ownFile-web]
+2018-12-21 10:02:36.5747 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 10:02:36.5887 Info Found 45 configuration items
+2018-12-21 10:02:44.9847 Info Message Template Auto Format enabled
+2018-12-21 10:02:44.9955 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 10:02:45.0612 Info Adding target File Target[allfile]
+2018-12-21 10:02:45.0612 Info Adding target File Target[ownFile-web]
+2018-12-21 10:02:45.0765 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 10:02:45.0916 Info Found 45 configuration items
+2018-12-21 10:03:42.6216 Info Message Template Auto Format enabled
+2018-12-21 10:03:42.6337 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 10:03:42.7565 Info Adding target File Target[allfile]
+2018-12-21 10:03:42.7601 Info Adding target File Target[ownFile-web]
+2018-12-21 10:03:42.7777 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 10:03:42.7944 Info Found 45 configuration items
+2018-12-21 10:12:18.4383 Info Message Template Auto Format enabled
+2018-12-21 10:12:18.4512 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 10:12:18.5762 Info Adding target File Target[allfile]
+2018-12-21 10:12:18.5862 Info Adding target File Target[ownFile-web]
+2018-12-21 10:12:18.5862 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 10:12:18.6117 Info Found 45 configuration items
+2018-12-21 10:21:16.4323 Info Message Template Auto Format enabled
+2018-12-21 10:21:16.4323 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-21 10:21:16.5401 Info Adding target File Target[allfile]
+2018-12-21 10:21:16.5401 Info Adding target File Target[ownFile-web]
+2018-12-21 10:21:16.5600 Info Configured from an XML element in C:\Users\Essam\Documents\GitHub\ClinicApp\Api\WebApi\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-21 10:21:16.5740 Info Found 45 configuration items

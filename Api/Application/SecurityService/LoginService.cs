@@ -15,7 +15,7 @@ namespace Application.SecurityService
 {
     public class LoginService : ILoginService
     {
-        private IConfiguration _configuration;
+        private readonly IConfiguration _configuration;
         private readonly IloginRepositry _loginRepositroy;
         private readonly IUserClaimsRepositry _userClaimsRepositry;
         private readonly IUserTokenRepositry _userTokenRepositry;

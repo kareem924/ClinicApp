@@ -18,7 +18,6 @@ CREATE TABLE dbo.users
     Name NVARCHAR(120) NULL,
     Email NVARCHAR(120) NULL,
     IsDeleted BIT,
-    jig
         CreatedAt
     DATETIME2 NULL,
     UpdatedAt DATETIME2 NULL,
@@ -118,3 +117,7 @@ ADD CONSTRAINT FK_SysPagesActions_SysPages FOREIGN KEY (PageId)
 
 ALTER TABLE dbo.Users 
 ADD PasswordHash NVARCHAR(300) NULL;
+ALTER TABLE [dbo].[users] ADD [UserName] nvarchar(255) NULL
+ALTER TABLE [dbo].[UserTokens] ADD [LoginProvider] nvarchar(255) NULL
+ALTER TABLE [dbo].[UserTokens] ADD [Name] nvarchar(255) NULL
+ALTER TABLE [dbo].[UserTokens] ALTER COLUMN [Token] nvarchar(550) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL

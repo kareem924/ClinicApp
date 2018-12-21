@@ -25,7 +25,7 @@ namespace WebApi
         public IConfiguration Configuration { get; }
         public virtual void SetupDatabase(IServiceCollection services)
         {
-            Data.Configure.ConfigureServices(services, Configuration.GetConnectionString("defaultConnection"));
+            Data.Configure.ConfigureServices(services, @"Server=localhost;Database=ClinicApp;Trusted_Connection=True;MultipleActiveResultSets=true");
            
         }
         // This method gets called by the runtime. Use this method to add services to the container.

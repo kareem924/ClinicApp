@@ -1,7 +1,6 @@
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
-C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\nlog.config
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\IntegrationTest.deps.json
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\IntegrationTest.runtimeconfig.json
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\IntegrationTest.runtimeconfig.dev.json
@@ -25,3 +24,6 @@ C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\obj\Debug\net
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netcoreapp2.1\IntegrationTest.csproj.CopyComplete
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netcoreapp2.1\IntegrationTest.dll
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\obj\Debug\netcoreapp2.1\IntegrationTest.pdb
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\Common.dll
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\Common.pdb
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\IntegrationTest\bin\Debug\netcoreapp2.1\nlog.config
