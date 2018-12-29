@@ -13,10 +13,9 @@ namespace Data
         {
             //Context lifetime defaults to "scoped"
             //services.AddDbContext<UserManagementDbContext>(options => options.UseSqlServer(connectionString));
-            services.AddScoped<IConnectionFactory>(sp =>
-            { return new SqlConnectionFactory(connectionString); });
+            services.AddScoped<IConnectionFactory>(sp => new SqlConnectionFactory(connectionString));
             services.AddTransient<IUserRepositry, UserRepositry>();
-            services.AddTransient<IloginRepositry, LoginRepository>();
+            services.AddTransient<ILoginRepositry, LoginRepository>();
             services.AddTransient<IUnitOfWork, DapperUnitOfWork>();
 
             services.AddTransient<IUserClaimsRepositry, UserClaimsRepositry>();

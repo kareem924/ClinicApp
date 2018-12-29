@@ -4,7 +4,7 @@ using Abstract.Entities;
 
 namespace Abstract.Repositry
 {
-    public interface IloginRepositry
+    public interface ILoginRepositry
     {
         Task<Users> CheckIsAuthorisedUserAsync(string userName, string hashedPassword);
      

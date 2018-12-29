@@ -16,10 +16,10 @@ namespace Application.SecurityService
     public class LoginService : ILoginService
     {
         private readonly IConfiguration _configuration;
-        private readonly IloginRepositry _loginRepositroy;
+        private readonly ILoginRepositry _loginRepositroy;
         private readonly IUserClaimsRepositry _userClaimsRepositry;
         private readonly IUserTokenRepositry _userTokenRepositry;
-        public LoginService(IloginRepositry loginRepositroy, IConfiguration configuration, IUserClaimsRepositry userClaimsRepositry, IUserTokenRepositry userTokenRepositry)
+        public LoginService(ILoginRepositry loginRepositroy, IConfiguration configuration, IUserClaimsRepositry userClaimsRepositry, IUserTokenRepositry userTokenRepositry)
         {
             _configuration = configuration;
             _loginRepositroy = loginRepositroy;
@@ -78,13 +78,15 @@ namespace Application.SecurityService
         public async Task<ContextUser> GetUserContext(Users user)
         {
             var userClaims = await _userClaimsRepositry.GetUserClaims(user.Id);
-            var contextUser = new ContextUser();
-            contextUser.DisplayName = user.Name;
-            contextUser.Lang = "Ar";
-            contextUser.MyClaims = new List<Claim>
+            var contextUser = new ContextUser
             {
-                new Claim(ClaimTypes.Sid, user.Id.ToString()),
-                new Claim(ClaimTypes.NameIdentifier, user.UserName),
+                DisplayName = user.Name,
+                Lang = "Ar",
+                MyClaims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Sid, user.Id.ToString()),
+                    new Claim(ClaimTypes.NameIdentifier, user.UserName),
+                }
             };
             foreach (var item in userClaims)
             {

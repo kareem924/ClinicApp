@@ -7,9 +7,9 @@ using Framework.UnitOfWork;
 
 namespace Data.Repositry
 {
-    public class LoginRepository : IloginRepositry
+    public class LoginRepository : ILoginRepositry
     {
-        IUnitOfWork _unitOfWork;
+        readonly IUnitOfWork _unitOfWork;
         public LoginRepository(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;

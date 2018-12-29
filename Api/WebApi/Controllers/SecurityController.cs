@@ -1,7 +1,4 @@
-using System;
 using System.Threading.Tasks;
-using Abstract.Entities;
-using Abstract.Repositry;
 using Abstract.Service;
 using Framework.Logging;
 using Framework.Models;
@@ -22,17 +19,19 @@ namespace WebApi.Controllers
             _loginService = loginService;
             _logger = logger;
         }
-         [HttpPost("Login")]
-        public async Task<LoginResult> Login([FromBody]LoginModel model )
+        [HttpPost("Login")]
+        public async Task<ActionResult<LoginResult>> Login([FromBody]LoginModel model)
         {
             _logger.LogInformation(LoggingEvents.Loging, "Logging in", model.UserName);
             if (string.IsNullOrEmpty(model.UserName) || string.IsNullOrEmpty(model.Password))
             {
                 _logger.LogWarning(LoggingEvents.GetItemNotFound, "Bad Request");
-                return new LoginResult {IsAuhtentaced=false,Message="",Token=null };
-
+                var badresult = new LoginResult { IsAuhtentaced = false, Message = "", Token = null };
+                return BadRequest(badresult);
             }
-            return await _loginService.Login(model);
+            var result = await _loginService.Login(model);
+            return Ok(result);
         }
+
     }
 }
