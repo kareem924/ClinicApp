@@ -24,3 +24,4 @@ C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\UnitTest\obj\Debug\netcoreapp
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.csproj.CopyComplete
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.dll
 C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.pdb
+C:\Users\Essam\Documents\GitHub\ClinicApp\Api\Test\UnitTest\bin\Debug\netcoreapp2.1\nlog.config

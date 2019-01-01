@@ -1,8 +1,5 @@
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Abstract.Entities;
-using Abstract.Infrastructure;
 using Abstract.Repositry;
 using Dapper;
 using Framework.Extensions;

@@ -1,10 +1,7 @@
 using System.Collections.Generic;
-using Abstract.Entities;
-using Abstract.Infrastructure;
 using Framework.UnitOfWork;
 using Dapper;
 using Dapper.Contrib.Extensions;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Data.Repositry

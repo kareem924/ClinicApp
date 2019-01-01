@@ -15586,6 +15586,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Application >= 1.0.0",
+      "Dapper >= 1.50.5",
       "Data >= 1.0.0",
       "Framework >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.1.1",
@@ -15650,6 +15651,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[1.50.5, )"
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.1.1, )"
