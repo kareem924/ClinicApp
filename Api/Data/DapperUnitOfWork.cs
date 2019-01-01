@@ -16,14 +16,10 @@ namespace Data
 
             _connection = connectionFactory.GetConnection;
         }
-        IDbConnection IUnitOfWork.Connection
-        {
-            get { return _connection; }
-        }
-        IDbTransaction IUnitOfWork.Transaction
-        {
-            get { return _transaction; }
-        }
+        IDbConnection IUnitOfWork.Connection => _connection;
+
+        IDbTransaction IUnitOfWork.Transaction => _transaction;
+
         public void Begin()
         {
             _transaction = _connection.BeginTransaction();
@@ -54,10 +50,10 @@ namespace Data
         }
         public void Dispose()
         {
-            dispose(true);
+            Dispose(true);
             GC.SuppressFinalize(this);
         }
-        private void dispose(bool disposing)
+        private void Dispose(bool disposing)
         {
             if (!_disposed)
             {
@@ -79,7 +75,7 @@ namespace Data
         }
         ~DapperUnitOfWork()
         {
-            dispose(false);
+            Dispose(false);
         }
         public IRepository<T> GetGenRepoFor<T>() where T : class
         {

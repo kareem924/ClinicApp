@@ -5,6 +5,8 @@
   </PropertyGroup>
   <ItemGroup>
 
+    <PackageReference Include="Dapper" Version="1.50.5" />
+
     <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.1" />
@@ -23,7 +25,6 @@
     <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Repositries\" />
     <Folder Include="Services\" />
   </ItemGroup>
 </Project>

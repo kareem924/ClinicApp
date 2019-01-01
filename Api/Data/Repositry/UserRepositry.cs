@@ -26,16 +26,7 @@ namespace Data.Repositry
             throw new System.NotImplementedException();
         }
 
-        public async Task<Users> CheckIsAuthorisedUserAsync(string userName, string hashedPassword)
-        {
-            string sql = @"select top 1 * FROM users where
-            PasswordHash=@HashedPassword AND (Email=@userName OR UserName=@userName)";
-            Users userByUsernameOrEmail = null;
-            userByUsernameOrEmail = await _unitOfWork.Connection.QueryFirstOrDefaultAsync<Users>(sql, new { HashedPassword = hashedPassword, userName = userName });
-            return userByUsernameOrEmail;
-
-
-        }
+      
 
         public Task<bool> DisactiveUser(int Id)
         {

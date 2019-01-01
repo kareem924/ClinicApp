@@ -11,6 +11,7 @@
           "Abstract": "1.0.0",
           "Application": "1.0.0",
           "Common": "1.0.0",
+          "Dapper": "1.50.5",
           "Data": "1.0.0",
           "Framework": "1.0.0",
           "Microsoft.AspNetCore": "2.1.1",
