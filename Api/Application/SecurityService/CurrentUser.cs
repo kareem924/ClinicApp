@@ -28,10 +28,9 @@ namespace Application.SecurityService
                 if (StringValues.IsNullOrEmpty(authorizationValue)) return null;
 
                 ContextUser user = _tokenCashing.GetToken(authorizationValue) as ContextUser;
-                if (user == null)
+                if (user != null)
                 {
-                    user = null;
-                    if (user == null) return null;
+                  
                     user.ExpiresOn = DateTime.UtcNow.AddDays(30).Ticks;
                     user.Authenticated = true;
                 }

@@ -17,12 +17,11 @@ namespace Data.Repositry
         {
             string sql = @"select top 1 * FROM users where
             PasswordHash=@HashedPassword AND (Email=@userName OR UserName=@userName)";
-            Users userByUsernameOrEmail = null;
-            userByUsernameOrEmail = await _unitOfWork.Connection.QueryFirstOrDefaultAsync<Users>(sql, new { HashedPassword = hashedPassword, userName = userName },_unitOfWork.Transaction);
+            var userByUsernameOrEmail = await _unitOfWork.Connection.QueryFirstOrDefaultAsync<Users>(sql, new { HashedPassword = hashedPassword, userName = userName }, _unitOfWork.Transaction);
             return userByUsernameOrEmail;
         }
 
 
-       
+
     }
 }
