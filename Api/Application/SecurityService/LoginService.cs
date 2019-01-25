@@ -1,6 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
 using System.Security.Claims;
+using System.Text;
 using System.Threading.Tasks;
 using Abstract.Entities;
 using Abstract.Repositry;
@@ -9,6 +12,7 @@ using Framework.Extensions;
 using Framework.Models;
 using Framework.Models.Result;
 using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 
 namespace Application.SecurityService
@@ -32,7 +36,7 @@ namespace Application.SecurityService
             var authentacedUser = await Check(model.UserName, model.Password);
             if (authentacedUser != null)
             {
-                var token = GenerateToken(new UserDto { Id = authentacedUser.Id, Guid = Guid.NewGuid().ToString() });
+                var token = GenerateToken(new UserDto { Id = authentacedUser.Id,UserName = authentacedUser.UserName });
                 await UpdateUserTokenInDb(authentacedUser.Id, model.LoginProvider, token.Token);
                 return new LoginResult() { Token = token, IsAuhtentaced = true, Message = "success" };
 
@@ -67,35 +71,45 @@ namespace Application.SecurityService
 
         public JwtResult GenerateToken(UserDto user)
         {
-            var objectSerialzed = JsonConvert.SerializeObject(user);
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_configuration.GetSection("Encryption").GetSection("key").Value);
+            
+            var tokenDescriptor =  CreatetokenDescriptor(user, key).Result;
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            var writeToken = tokenHandler.WriteToken(token);
             return new JwtResult
             {
-                Token = objectSerialzed.Encrypt(_configuration.GetSection("Encryption").GetSection("key").Value),
-                ExpiredToken = DateTime.Now.AddHours(24),
+                Token = writeToken,
+                ExpiredToken = tokenDescriptor.Expires.GetValueOrDefault(),
             };
         }
 
-        public async Task<ContextUser> GetUserContext(Users user)
+        public async Task<SecurityTokenDescriptor> CreatetokenDescriptor(UserDto user, byte[] key)
         {
             var userClaims = await _userClaimsRepositry.GetUserClaims(user.Id);
-            var contextUser = new ContextUser
+            
+            var tokenDescriptor = new SecurityTokenDescriptor
             {
-                DisplayName = user.Name,
-                Lang = "Ar",
-                MyClaims = new List<Claim>
+                Subject = new ClaimsIdentity(new Claim[]
                 {
+                    new Claim(ClaimTypes.Name, user.UserName),
                     new Claim(ClaimTypes.Sid, user.Id.ToString()),
-                    new Claim(ClaimTypes.NameIdentifier, user.UserName),
-                }
+                })
             };
-            foreach (var item in userClaims)
+            if (userClaims.Any())
             {
-                contextUser.MyClaims.Add(new Claim(item.ClaimName, item.ClaimValue));
-
+                foreach (var claim in userClaims)
+                {
+                    tokenDescriptor.Subject.AddClaim(new Claim(claim.ClaimName, claim.ClaimValue));
+                }
             }
-            contextUser.Authenticated = true;
+           
+            tokenDescriptor.Expires = DateTime.Now.AddHours(24);
+            tokenDescriptor.SigningCredentials =
+                new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature);
 
-            return contextUser;
+            return tokenDescriptor;
         }
     }
 }

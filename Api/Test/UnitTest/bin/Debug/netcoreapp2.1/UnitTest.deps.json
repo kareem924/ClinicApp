@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "496d23075c451d6c984690ad0a2012b87dd7e8c0"
+    "signature": "ea3a50fd3951b40b3b76fe247e503df36749433f"
   },
   "compilationOptions": {},
   "targets": {
@@ -75,6 +75,61 @@
           "lib/netstandard2.0/Dapper.Contrib.dll": {
             "assemblyVersion": "1.50.5.0",
             "fileVersion": "1.50.5.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication/2.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.18207"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/2.1.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication": "2.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.18207"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/5.2.4": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.2.4",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "5.2.4.0",
+            "fileVersion": "5.2.4.50619"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/5.2.4": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "5.2.4.0",
+            "fileVersion": "5.2.4.50619"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.2.4": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "5.2.4",
+          "NETStandard.Library": "2.0.3",
+          "System.Runtime.Serialization.Xml": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.2.4.0",
+            "fileVersion": "5.2.4.50619"
           }
         }
       },
@@ -471,9 +526,38 @@
           }
         }
       },
+      "System.IdentityModel.Tokens.Jwt/5.2.4": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "5.2.4",
+          "Microsoft.IdentityModel.Tokens": "5.2.4",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "5.2.4.0",
+            "fileVersion": "5.2.4.50619"
+          }
+        }
+      },
       "System.Linq.Queryable/4.3.0": {},
+      "System.Private.DataContractSerialization/4.3.0": {
+        "dependencies": {
+          "System.Reflection.TypeExtensions": "4.5.1",
+          "System.Xml.XmlSerializer": "4.3.0"
+        }
+      },
       "System.Reflection.TypeExtensions/4.5.1": {},
       "System.Runtime.Loader/4.0.0": {},
+      "System.Runtime.Serialization.Xml/4.3.0": {
+        "dependencies": {
+          "System.Private.DataContractSerialization": "4.3.0"
+        }
+      },
+      "System.Xml.XmlSerializer/4.3.0": {
+        "dependencies": {
+          "System.Reflection.TypeExtensions": "4.5.1"
+        }
+      },
       "System.Xml.XPath.XmlDocument/4.0.1": {
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {
@@ -561,7 +645,9 @@
           "AutoMapper": "8.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.0.0",
           "Data": "1.0.0",
-          "Framework": "1.0.0"
+          "Framework": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "2.1.2",
+          "System.IdentityModel.Tokens.Jwt": "5.2.4"
         },
         "runtime": {
           "Application.dll": {}
@@ -639,6 +725,41 @@
       "sha512": "sha512-L7wg8NGOtH8anJN8gl4wgRwhaJdaFiThnpFl5rsCEXm3yb6SH9wKD+ehnce+BKQXZlISk+uWhEHoib0unm/zVA==",
       "path": "dapper.contrib/1.50.5",
       "hashPath": "dapper.contrib.1.50.5.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1fM69UBqg7EQwKnwxZO7mdLF3Sgwvqxey5fPw+DzdL5rWUQSfhbKCAR1eOj/hnS03PX0D/Vve6zSmQi6xlWfvQ==",
+      "path": "microsoft.aspnetcore.authentication/2.1.2",
+      "hashPath": "microsoft.aspnetcore.authentication.2.1.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mUnU/sXRJoS0D4G6TM1cGL5NLxL7GzZhjZS69WJfiE7v0bvefgkZdqsv678yI3WtfN80MMZcJEE/UepHMqJL6Q==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/2.1.2",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.2.1.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/5.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tk3W9g/TOBBPkL/RU1KgOdsCzXhjOAG1/g75OMueXQev+ImPiDheB68ByRBicqTR0R14BUux9+msbWaAzzwo5Q==",
+      "path": "microsoft.identitymodel.jsonwebtokens/5.2.4",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.5.2.4.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/5.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RDA2J7T1xCcxWx/WBlgFory5DR70tLofODL/tJzWU2JvYmG/m2Az7sy3RFYZs8RE6aAG+i25h8ebb5Z8SDTkww==",
+      "path": "microsoft.identitymodel.logging/5.2.4",
+      "hashPath": "microsoft.identitymodel.logging.5.2.4.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/5.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ui9gfQLq5FHmnJK0teAH3vkpsy1sU6PFN2c0RbpgHW34+NPISQ5FQAdik4JyT/IvQXI8ZmQU+g94NErwdKYZZg==",
+      "path": "microsoft.identitymodel.tokens/5.2.4",
+      "hashPath": "microsoft.identitymodel.tokens.5.2.4.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/15.0.0": {
       "type": "package",
@@ -808,12 +929,26 @@
       "path": "system.diagnostics.tracesource/4.3.0",
       "hashPath": "system.diagnostics.tracesource.4.3.0.nupkg.sha512"
     },
+    "System.IdentityModel.Tokens.Jwt/5.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZKFZ3JZxgdB0SGrEfFB5HZVUpsss+gPhLcQRjnYB2gCXVeaMI6y/xj0I4Y1sG2igQd+jhJNENM8CPtBBG7rYFg==",
+      "path": "system.identitymodel.tokens.jwt/5.2.4",
+      "hashPath": "system.identitymodel.tokens.jwt.5.2.4.nupkg.sha512"
+    },
     "System.Linq.Queryable/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-wdbQgzMijyDkBQySuqYnDcK/V70V6KIUUQdXpkXShHbgQRn0bn9wY3ar0VnsDwCcwu8ig6XBrpC2EU2xK+TuQg==",
       "path": "system.linq.queryable/4.3.0",
       "hashPath": "system.linq.queryable.4.3.0.nupkg.sha512"
+    },
+    "System.Private.DataContractSerialization/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yDaJ2x3mMmjdZEDB4IbezSnCsnjQ4BxinKhRAaP6kEgL6Bb6jANWphs5SzyD8imqeC/3FxgsuXT6ykkiH1uUmA==",
+      "path": "system.private.datacontractserialization/4.3.0",
+      "hashPath": "system.private.datacontractserialization.4.3.0.nupkg.sha512"
     },
     "System.Reflection.TypeExtensions/4.5.1": {
       "type": "package",
@@ -828,6 +963,20 @@
       "sha512": "sha512-AGWrywLI2B15/dnLuFnlHWFjXmq1Tl0kjWaKTHbaJ8T9kIxiQ8YGTtiMQc8rUr49l2JjfZa7QY0KKqlyzA7NNg==",
       "path": "system.runtime.loader/4.0.0",
       "hashPath": "system.runtime.loader.4.0.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Xml/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nUQx/5OVgrqEba3+j7OdiofvVq9koWZAC7Z3xGI8IIViZqApWnZ5+lLcwYgTlbkobrl/Rat+Jb8GeD4WQESD2A==",
+      "path": "system.runtime.serialization.xml/4.3.0",
+      "hashPath": "system.runtime.serialization.xml.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XmlSerializer/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
+      "path": "system.xml.xmlserializer/4.3.0",
+      "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "System.Xml.XPath.XmlDocument/4.0.1": {
       "type": "package",

@@ -1,4 +1,4 @@
-package com.example.clinicapp;
+package com.example.clinicmobileapp;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
